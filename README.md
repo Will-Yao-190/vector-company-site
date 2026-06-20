@@ -4,7 +4,7 @@ This is the general Vector company website for real estate services:
 
 - Property rentals
 - Flipping
-- Tax sale opportunity support
+- Tax lien opportunity support
 
 ## Run Locally
 

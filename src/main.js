@@ -18,8 +18,8 @@ const services = [
   },
   {
     tag: "Tax",
-    title: "Tax Sale Opportunities",
-    text: "We evaluate tax sale and related distressed property opportunities with careful due diligence, title review, and bidding discipline.",
+    title: "Tax Lien Opportunities",
+    text: "We evaluate tax lien certificates and related distressed property opportunities with careful due diligence, title review, and disciplined acquisition.",
     points: ["Lead Sourcing", "Title Review", "Risk Checklist", "Bid Strategy"],
   },
 ];
@@ -31,7 +31,7 @@ const steps = [
   },
   {
     title: "Build the Plan",
-    text: "For rentals, flips, or tax sale opportunities, we map the budget, timeline, partners, and risk boundaries before execution begins.",
+    text: "For rentals, flips, or tax lien opportunities, we map the budget, timeline, partners, and risk boundaries before execution begins.",
   },
   {
     title: "Execute with Discipline",
@@ -79,7 +79,7 @@ function Hero() {
         h(
           "p",
           { className: "hero-copy" },
-          "Vector helps property owners and investors manage rentals, flipping projects, and tax sale opportunities with a clearer operating process."
+          "Vector helps property owners and investors manage rentals, flipping projects, and tax lien opportunities with a clearer operating process."
         ),
         h(
           "div",
@@ -92,7 +92,7 @@ function Hero() {
           { className: "hero-metrics" },
           h("div", null, h("dt", null, "Rental Operations"), h("dd", null, "Cash Flow")),
           h("div", null, h("dt", null, "Flipping"), h("dd", null, "Value Add")),
-          h("div", null, h("dt", null, "Tax Sale"), h("dd", null, "Due Diligence"))
+          h("div", null, h("dt", null, "Tax Lien"), h("dd", null, "Due Diligence"))
         )
       )
     )
@@ -131,7 +131,7 @@ function Services() {
       h(
         "p",
         null,
-        "Vector brings rental cash flow, renovation upside, and tax sale opportunities into one practical framework so each project has a defined goal, rhythm, and risk boundary."
+        "Vector brings rental cash flow, renovation upside, and tax lien opportunities into one practical framework so each project has a defined goal, rhythm, and risk boundary."
       )
     ),
     h(
@@ -195,13 +195,13 @@ function Contact() {
         h(
           "p",
           null,
-          "Whether you are operating a rental property, evaluating a flip, or reviewing a tax sale opportunity, Vector can help you clarify the next step from goals, budget, and timeline."
+          "Whether you are operating a rental property, evaluating a flip, or reviewing a tax lien opportunity, Vector can help you clarify the next step from goals, budget, and timeline."
         ),
         h(
           "div",
           { className: "contact-meta" },
           h("div", null, h("span", null, "Email"), h("strong", null, "hello@vector.example")),
-          h("div", null, h("span", null, "Focus"), h("strong", null, "Rentals / Flipping / Tax Sale"))
+          h("div", null, h("span", null, "Focus"), h("strong", null, "Rentals / Flipping / Tax Lien"))
         )
       ),
       h(
@@ -218,7 +218,7 @@ function Contact() {
             { name: "service", defaultValue: "Property Rentals" },
             h("option", null, "Property Rentals"),
             h("option", null, "Flipping"),
-            h("option", null, "Tax Sale Opportunities"),
+            h("option", null, "Tax Lien Opportunities"),
             h("option", null, "General Consultation")
           )
         ),
@@ -249,7 +249,7 @@ function App() {
       "footer",
       { className: "site-footer" },
       h("span", null, "Vector"),
-      h("span", null, "Real Estate Rentals / Flipping / Tax Sale")
+      h("span", null, "Real Estate Rentals / Flipping / Tax Lien")
     )
   );
 }
