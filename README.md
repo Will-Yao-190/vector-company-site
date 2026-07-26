@@ -9,7 +9,7 @@ This is the general Vector company website for real estate services:
 ## Run Locally
 
 ```powershell
-cd C:\Dev\VectorCompany
+cd C:\Dev\vector-company-site
 node server.js
 ```
 
